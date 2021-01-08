@@ -1,3 +1,3 @@
 ## Producer submenu
 
-## demo [here](https://pawel-chmiel.github.io/chat-grid-layout/)
+## demo [here](https://pawel-chmiel.github.io/producer-submenu/)
