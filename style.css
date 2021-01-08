@@ -1,0 +1,126 @@
+/* kamaja-color: #F99A98 */
+
+.container {
+    width: 750px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.m-head {
+    margin: 0;
+    padding: 40px 0;
+    font-weight: 300;
+    font-size: 25px;
+    color: #313131;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.m-head:before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #d7d7d7;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: 3px;
+}
+.listing-brands-top {
+    text-align: center;
+}
+li, ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.listing-brands-top .brand {
+    display: inline-block;
+    margin: 20px;
+}
+.listing-brands-top .brand a {
+    display: block;
+}
+.listing-brands-top .brand a img {
+    height: 100px;
+    width: auto;
+    vertical-align: middle;
+}
+.m-head span {
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.listing-alphabet-horizontal {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.listing-alphabet-horizontal a {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    color: #313131;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 0 5px;
+    transition: all 0.3s ease-in-out;
+}
+.listing-alphabet-horizontal a:hover,
+.brands a:hover{
+    color: #F99A98;
+}
+
+.letter {
+    color:#F99A98;
+    font-weight: 700;
+    position: relative;
+}
+.letter:after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 40px;
+    right: 0;
+    top: 50%;
+    border-bottom: 1px solid#F99A98;
+}
+
+.listing-brands-letters .brands {
+    padding: 20px 0;
+}
+.brands{   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;    
+}
+.brands a {
+    font-size: 20px;
+    color: #313131;
+    text-decoration: none;
+    font-weight: 300;
+    /* padding: 0 5px; */
+    width: 33.3333%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
